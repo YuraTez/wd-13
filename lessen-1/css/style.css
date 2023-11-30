@@ -1,0 +1,41 @@
+header{
+  background: coral;
+}
+
+.header{
+  background: red;
+  padding: 20px 0;
+}
+
+#header{
+  background: red;
+}
+
+#header{
+  background: cadetblue;
+}
+
+.nav-list{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list__item{
+ margin-left: 10px;
+}
+
+.nav-list__item a{
+  color: blueviolet;
+}
+
+.nav-list__item a{
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+ /* text-decoration: underline;*/
+  text-decoration: none;
+}
+
+.nav-list__item--red a{
+  color: red;
+}
