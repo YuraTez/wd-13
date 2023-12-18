@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson-6</title>
+</head>
+<body>
+
+<div class="container">
+    <form action="#" name="form" method="get">
+        <div class="form-group">
+            <label for="input-name">Укажите имя</label>
+            <input type="text" required name="name" placeholder="Укажите имя" value="Yura" maxlength="5" minlength="3" id="input-name">
+        </div>
+        <div class="form-group">
+            <label for="input-tel">Укажите телефон</label>
+            <input type="tel" name="tel" id="input-tel">
+        </div>
+        <div class="form-group">
+            <label for="input-email">Email</label>
+            <input type="email" id="input-email" required name="emil">
+        </div>
+        <div class="form-group">
+            <label for="input-password">Password</label>
+            <input type="password" name="password" id="input-password">
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" required id="input-checkbox" checked name="checkbox">
+            <label for="input-checkbox"  class="label-checkbox">Согласен</label>
+        </div>
+        <div class="form-group">
+            <label>Выбери цвет</label>
+            <div class="form-group-row">
+                <label for="red">red</label>
+                <input type="radio" id="red" name="color" value="red" checked>
+            </div>
+            <div class="form-group-row">
+                <label for="black">black</label>
+                <input type="radio" id="black" name="color" value="black">
+            </div>
+            <div class="form-group-row">
+                <label for="blue">blue</label>
+                <input type="radio" id="blue" name="color" value="blue">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="range" name="" min="10" max="100" value="20">
+        </div>
+
+        <div class="form-group">
+            <label for=""></label>
+            <input type="file" multiple>
+        </div>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="number">
+        </div>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="time">
+        </div>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="color">
+        </div>
+
+        <div class="form-group">
+            <label for="about">О себе</label>
+            <textarea name="" id="about" placeholder="О себе"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for=""></label>
+            <select name="" id="">
+                <option value="1">color 1</option>
+                <option value="1">color 2</option>
+                <option value="1">color 3</option>
+                <option value="1">color 4</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for=""></label>
+            <div class="form-group-row">
+                <button type="button">button</button>
+            </div>
+            <div class="form-group-row">
+                <button type="reset">reset</button>
+            </div>
+            <div class="form-group-row">
+                <button type="submit">submit</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>
