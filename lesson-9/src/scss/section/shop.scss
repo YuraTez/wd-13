@@ -1,0 +1,43 @@
+@import "../mixins/card";
+
+.shop{
+  padding: 50px;
+  background: $silver;
+
+  &-content{
+    display: flex;
+    gap: 20px;
+
+    &__el{
+      @include card;
+
+      &__title{
+        font-size: $h3;
+        color: $coral;
+        margin-bottom: 15px;
+      }
+
+      &__text{
+        font-size: $text;
+        margin-bottom: 10px;
+      }
+
+      &__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $coral;
+        border-radius: 3px;
+        color: $black;
+        background: $white;
+        transition: .3s;
+
+
+        &:hover{
+          color: $white;
+          background: $coral;
+        }
+      }
+    }
+  }
+}
